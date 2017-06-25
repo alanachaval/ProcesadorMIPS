@@ -6,7 +6,7 @@ entity registro_ID_EX is
 	port(clk, rst, we : in std_logic;
 		wb_in : in std_logic_vector (1 downto 0);
 		mem_in : in std_logic_vector (2 downto 0);
-		ex_in : in std_logic_vector (4 downto 0);
+		ex_in : in std_logic_vector (3 downto 0);
 		pc_in : in std_logic_vector (31 downto 0);
 		read_data_1_in : in std_logic_vector (31 downto 0);
 		read_data_2_in : in std_logic_vector (31 downto 0);
@@ -15,7 +15,7 @@ entity registro_ID_EX is
 		inst_15_11_in : in std_logic_vector (4 downto 0);
 		wb_out : out std_logic_vector (1 downto 0);
 		mem_out : out std_logic_vector (2 downto 0);
-		ex_out : out std_logic_vector (4 downto 0);
+		ex_out : out std_logic_vector (3 downto 0);
 		pc_out : out std_logic_vector (31 downto 0);
 		read_data_1_out : out std_logic_vector (31 downto 0);
 		read_data_2_out : out std_logic_vector (31 downto 0);
@@ -33,7 +33,7 @@ begin
 		if rst='1' then
 			wb_out <= "00";
 			mem_out <= "000";
-			ex_out <= "00000";
+			ex_out <= "0000";
 			pc_out <= x"00000000";
 			read_data_1_out <= x"00000000";
 			read_data_2_out <= x"00000000";
