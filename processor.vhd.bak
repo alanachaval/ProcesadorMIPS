@@ -170,7 +170,7 @@ signal ex_reg_id_ex_mem_out:std_logic_vector (2 downto 0);
 signal ex_reg_id_ex_ex_out : std_logic_vector (3 downto 0);
 signal ex_reg_id_ex_pc_out: std_logic_vector(31 downto 0);
 signal ex_add_branch_out: std_logic_vector(31 downto 0);--este es el resultado del sumador para el salto
-signal ex_read_data_2_out: std_logic_vector(31 downto 0);
+signal ex_read_data_2_out , ex_read_data_2_out: std_logic_vector(31 downto 0);
 signal ex_mux_alu_out: std_logic_vector(31 downto 0);
 signal ex_alu_zero_out: std_logic;
 signal ex_alu_result_out: std_logic_vector(31 downto 0);

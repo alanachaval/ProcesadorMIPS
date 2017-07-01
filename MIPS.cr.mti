@@ -1,1 +1,182 @@
+C:/modeltech64_10.0d/ProcesadorMIPS/alu.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/alu.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
 
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/mux.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/mux.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity mux
+-- Compiling architecture arc_mux of mux
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/sumador.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/sumador.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity sumador
+-- Compiling architecture arc_sumador of sumador
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/registro_MEM_WB.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/registro_MEM_WB.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity registro_MEM_WB
+-- Compiling architecture arc_registro_MEM_WB of registro_MEM_WB
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/registro_ID_EX.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/registro_ID_EX.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity registro_ID_EX
+-- Compiling architecture arc_registro_ID_EX of registro_ID_EX
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/unit_control.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/unit_control.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity unit_control
+-- Compiling architecture arc_unit_control of unit_control
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/registers.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/registers.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Registers
+-- Compiling architecture Behavioral of Registers
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/sign_extend.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/sign_extend.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity sign_extend
+-- Compiling architecture arc_sign_extend of sign_extend
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/memory.vhd {2 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/memory.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity memory
+-- Compiling architecture mem_arq of memory
+** Warning: C:/modeltech64_10.0d/ProcesadorMIPS/memory.vhd(41): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/registro_EX_MEM.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/registro_EX_MEM.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity registro_EX_MEM
+-- Compiling architecture arc_registro_EX_MEM of registro_EX_MEM
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/registro_IF_ID.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/registro_IF_ID.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity registro_IF_ID
+-- Compiling architecture arc_registro_IF_ID of registro_IF_ID
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/registro_PC.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/registro_PC.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity registro_PC
+-- Compiling architecture arc_registro_PC of registro_PC
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/alu_control.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/alu_control.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_control
+-- Compiling architecture arc_alu_control of alu_control
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/sign_extend_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/sign_extend_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity sign_extend_tb
+-- Compiling architecture arc_sign_extend_tb of sign_extend_tb
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/processor_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/processor_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity processor_tb
+-- Compiling architecture processor_tb_arq of processor_tb
+-- Compiling configuration testbench_for_procesador
+-- Loading entity processor_tb
+-- Loading architecture processor_tb_arq of processor_tb
+-- Loading entity processor
+-- Loading package std_logic_textio
+-- Loading entity memory
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/shift_left_2_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/shift_left_2_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity shift_left_2_tb
+-- Compiling architecture arc_shift_left_2_tb of shift_left_2_tb
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/alu_control_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/alu_control_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity alu_control_tb
+-- Compiling architecture arc_alu_control_tb of alu_control_tb
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/sumador_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/sumador_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity sumador_tb
+-- Compiling architecture arc_sumador_tb of sumador_tb
+
+} {} {}} C:/modeltech64_10.0d/ProcesadorMIPS/shift_left_2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/modeltech64_10.0d/ProcesadorMIPS/shift_left_2.vhd
+Model Technology ModelSim SE-64 vcom 10.0d Compiler 2011.10 Oct 30 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity shift_left_2
+-- Compiling architecture arc_shift_left_2 of shift_left_2
+
+} {} {}}

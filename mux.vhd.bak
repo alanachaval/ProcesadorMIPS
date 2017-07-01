@@ -16,7 +16,7 @@ begin
 
 	process(a, b , c)
 	begin
-		if (c = '1') then
+		if (c == '1') then
 			s <= a;
 		else
 			s <= b;	
