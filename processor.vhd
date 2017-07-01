@@ -226,7 +226,7 @@ control :  unit_control port map (
 		 mem_out => id_control_mem_out,
 		 ex_out => id_control_ex_out,
 		 ins_in => id_reg_if_id_instruccion_out(31 downto 26));	
-registros : Registers port map (clk => Clk, Reset => Reset, wr => wb_reg_mem_wb_wb_out(0),
+registros : Registers port map (clk => Clk, Reset => Reset, wr => wb_reg_mem_wb_wb_out(1),
            reg1_dr => id_reg_if_id_instruccion_out(25 downto 21),
            reg2_dr => id_reg_if_id_instruccion_out(20 downto 16),
            reg_wr => wb_mux_rt_rd_out,
@@ -289,14 +289,14 @@ reg_ex_mem : registro_EX_MEM port map (clk => Clk, rst => Reset, we => '1',
 		alu_res_out => mem_alu_result_out,
 		write_data_out => mem_read_data_2_out,
 		reg_dest_out => mem_mux_rt_rd_out);
-process(mem_zero_out, ex_reg_id_ex_mem_out(2))
+process(mem_zero_out, mem_reg_ex_mem_mem_out(2))
 	begin		
-		mem_branch_out <= mem_zero_out AND ex_reg_id_ex_mem_out(2);	
+		mem_branch_out <= mem_zero_out AND mem_reg_ex_mem_mem_out(2);	
 end process;
 --CONECCIONES CON LA MEMORIA DE DATOS
 	D_Addr <= mem_alu_result_out;
-	D_RdStb <= ex_reg_id_ex_mem_out(0);
-	D_WrStb <= ex_reg_id_ex_mem_out(1);
+	D_RdStb <= mem_reg_ex_mem_mem_out(0);
+	D_WrStb <= mem_reg_ex_mem_mem_out(1);
 	D_DataOut <= mem_read_data_2_out;
 	mem_data_memory_read_out <= D_DataIn;
 
@@ -310,7 +310,7 @@ reg_mem_wb : registro_MEM_WB port map (clk => Clk, rst => Reset, we => '1',
 		read_data_out => wb_data_memory_read_out,
 		alu_res_out => wb_alu_result_out,
 		reg_dest_out => wb_mux_rt_rd_out);
-mux_data_memoty_alu_result : mux port map (a => wb_data_memory_read_out, b => mem_alu_result_out,	
-          c => wb_reg_mem_wb_wb_out(1), s => wb_mux_data_memoty_alu_result_out);
+mux_data_memoty_alu_result : mux port map (a => wb_data_memory_read_out, b => wb_alu_result_out,	
+          c => wb_reg_mem_wb_wb_out(0), s => wb_mux_data_memoty_alu_result_out);
           
 end processor_arq;
